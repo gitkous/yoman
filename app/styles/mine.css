@@ -28,7 +28,7 @@
         }
 
         .section2  {
-          margin-top: 10%;
+          margin-top: 0%;
         }
 
 
@@ -298,7 +298,8 @@ h2{
 
 h3 {
 
-  font-family: 'NeutrafaceDisplayGreek-Thin', sans-serif;
+font-family: 'NeutrafaceDisplayGreek-Thin', sans-serif;
+font-size:4em;
 font-size:4em;
 opacity: 1;
 margin-top: 10%;
@@ -306,6 +307,12 @@ margin-bottom: 4%;
 
 }
 
+
+
+.main-content p {
+
+  font-family: 'NeutrafaceDisplayGreek-Light', sans-serif;
+}
 
 .titlos {
   padding-top: 2%;
@@ -322,7 +329,7 @@ margin-bottom: 4%;
 }
 
 .head1 {
-  font-family: 'NeutrafaceDisplayGreek-Thin', sans-serif;
+  font-family: 'NeutrafaceDisplayGreek-Bold', sans-serif;
   font-weight: 100;
   color: black;
   font-size: 4em;
@@ -510,11 +517,7 @@ transition: all .5s;
   font-size: 0.5em;
   text-decoration: none;
   color: white;
-   -webkit-transition: all 1s;
--moz-transition: all 1s;
--ms-transition: all 1s;
--o-transition: all 1s;
-transition: all 1s;
+
 }
 
 
