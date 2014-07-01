@@ -44,6 +44,7 @@
 
 
 
+
 /*SECTIONS*/
 
 
@@ -349,28 +350,6 @@ h5 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .navbar-nav>li>a {
   height:70px;
 }
@@ -401,12 +380,23 @@ transition: all .5s;
 
 }
 
+
+/*NAVBAR COLOR*/
+
+
+
 .navbar-default {
-  background-color: black; 
+  background-color: #585141; 
   background-image: none;
   background-repeat: no-repeat;
   filter: none;
 }
+
+
+
+
+
+
 
 .navbar-brand {
   margin-right: 50px;
