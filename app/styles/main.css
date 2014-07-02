@@ -485,17 +485,26 @@ transition: all .5s;
 }
 
 .istoriko h3 {
+          font-family: NeutrafaceDisplayGreek-Bold;
+
   padding-top: 10%;
 }
 
 .istoriko li {
+        font-family: NeutrafaceDisplayGreek-Light;
+
   padding-top: 3%;
   list-style-type: none;
-  font-size: 1.3em;
-  font-weight: 300;
+  font-size: 1.7em;
   line-height: 1.5em;
   color: #333;
 }
+
+.istoriko span {
+            font-family: NeutrafaceDisplayGreek-Bold;
+}
+
+
 
 .special1 {
   margin-left: 35%;
