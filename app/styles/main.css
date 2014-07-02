@@ -349,25 +349,18 @@ padding-bottom: 10%;
   }
 
 h4 {
-  font-family: 'NeutrafaceDisplayGreek-Thin', sans-serif;
+  font-family: 'NeutrafaceDisplayGreek-Bold', sans-serif;
 
   font-weight: 100;
   color: black;
   font-size: 2em;
+
 }
 
 
 
 
 
-h5 {
-  font-family: 'NeutrafaceDisplayGreek-Thin', sans-serif;
-  padding-top: 5%;
-  font-weight: 300;
-  color: black;
-  font-size: 1.2em;
-  opacity: 0.6;
-}
 
 .horigoi  {
   width: 250px;
@@ -567,28 +560,39 @@ blockquote {
 
 
 .sidelestes {
+    font-family: NeutrafaceDisplayGreek-Light;
+  font-size: 1.3em;
   margin-bottom: 10%;
+  margin-top: 20%;
+  margin-left: -7%;
+  opacity: 0.9;
 }
 
-.sidelestes h5 {
-opacity: 1;
-font-size: 2em;
-font-weight: 200;
-margin-bottom: 5%;
-margin-left: -7%;
+.sidelestes h4 {
+  font-size: 1.3em;
+  padding-bottom: 5%;
 }
 
 .sidelestes li {
-  font-size: 1.1em;
+      font-family: NeutrafaceDisplayGreek-Light;
+
+  font-size: 1.3em;
   list-style: none;
   font-weight: 300;
   padding-top: 1%;
-  margin-left: -7%;
+  
 }
 
 
 
 
+h5 {
+  font-family: 'NeutrafaceDisplayGreek-Bold', sans-serif;
+  padding-top: 5%;
+  color: black;
+  font-size: 0.5em;
+  opacity: 0.6;
+}
 
 
 
