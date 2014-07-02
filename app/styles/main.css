@@ -50,7 +50,7 @@
 
         .section1{
           padding: 5% 0;
-          margin-bottom:10%;
+          margin-bottom:0%;
           width: 100%;
           position: relative;
           overflow: hidden;
@@ -66,8 +66,7 @@
 
 
         .section2{
-          margin-top: -150px;
-          padding-top: 0px;
+          
           position: relative;
           display: block;
           width: 100%;
@@ -84,8 +83,9 @@
           width: 100%;
           padding-top: 4%;
         padding-bottom: 3%;
-        background-color: #D8C69E;
-        color: white;
+        color: black;
+        font-size:1.5em;
+        font-family: 'NeutrafaceDisplayGreek-Light', sans-serif;
         }
 
 
@@ -118,14 +118,14 @@ width: auto;
 
 .sidemenu {
    position:fixed;
-   width: 229px;
+   width: 180px;
    height: 100%;
   bottom:0;
   left:0;
   z-index: 500;
   padding-bottom: 1%;
   padding-top: 6%;
-  background-color: #D8C69E;
+  background-color: white;
 
 }
 
@@ -137,8 +137,8 @@ width: auto;
 }
 
 .sidemenu li  {
-  border-bottom: solid 1px white;
- padding: 15px;
+  border-bottom: solid 1px black;
+ padding: 5%;
  -webkit-transition: all .5s;
 -moz-transition: all .5s;
 -ms-transition: all .5s;
@@ -152,6 +152,7 @@ transition: all .5s;
   background-color: #F1EAD0;
 
 }
+
 .sidemenu a:hover {
     text-decoration: none;
 
@@ -159,9 +160,9 @@ transition: all .5s;
 
 
 h6 {
-  font-family: 'NeutrafaceDisplayGreek-Thin', sans-serif;
+  font-family: 'NeutrafaceDisplayGreek-Bold', sans-serif;
     font-size: 1.6em;
-    color: white;
+    color: black;
     opacity: 1;
 
 }
@@ -174,8 +175,7 @@ h6 {
   font-weight: 100;
   margin-bottom: 0.5%;
   font-size: 0.9em;
-  font-style: italic;
-  opacity: 1;
+  opacity: 0.4;
 }
 
 
@@ -333,15 +333,13 @@ margin-bottom: 4%;
   font-weight: 100;
   color: black;
   font-size: 4em;
-padding-top: 100px;
+padding-top: 15%;
+padding-bottom: 10%;
   }
 
 
   .head1 span {
     font-size: 0.5em;
-    font-weight: 500;
-font-style: italic;
-    float: right;
     opacity: 0.4;
   }
 
@@ -561,7 +559,6 @@ blockquote {
 
 
 
-
 .sidelestes {
   margin-bottom: 10%;
 }
@@ -602,7 +599,7 @@ margin-top: 10px;
 
 }
 
-img {
+.navbar-brand img {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -692,3 +689,36 @@ img {
   transform: translateY(0);
 
 }
+
+
+
+.ekdiloseis p {
+  font-family: NeutrafaceDisplayGreek-Light;
+  margin-left: 0;
+
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
