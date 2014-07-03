@@ -118,14 +118,14 @@ width: auto;
 
 .sidemenu {
    position:fixed;
-   width: 180px;
+   width: 197px;
    height: 100%;
   bottom:0;
   left:0;
   z-index: 500;
   padding-bottom: 1%;
   padding-top: 6%;
-  background-color: white;
+  background-color: #585141
 
 }
 
@@ -137,7 +137,7 @@ width: auto;
 }
 
 .sidemenu li  {
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px white;
  padding: 5%;
  -webkit-transition: all .5s;
 -moz-transition: all .5s;
@@ -146,25 +146,64 @@ width: auto;
 transition: all .5s;
 }
 
-
 .sidemenu li:hover {
-  color: #43828B;
-  background-color: #F1EAD0;
-
+opacity: 1;
 }
 
 .sidemenu a:hover {
     text-decoration: none;
+opacity: 1;
 
 }
 
 
-h6 {
-  font-family: 'NeutrafaceDisplayGreek-Bold', sans-serif;
-    font-size: 1.6em;
-    color: black;
-    opacity: 1;
 
+.ble-background, .ble-background p, .ble-background h4, .ble-background .head1  {
+
+  background-color: #3B4451;
+  color: white;
+}
+
+
+
+.kafe-background, .kafe-background p, .kafe-background h4, .kafe-background .head1  {
+
+  background-color: #908676;
+  color: white;
+}
+
+
+.black-background, .black-background p, .black-background h4, .black-background .head1  {
+
+  background-color: black;
+  color: white;
+}
+
+
+/*.section2, .section2 p, .section2 h4, .section2 .head1, .sidemenu h6 {
+  background-color: black;
+  color: white;
+}*/
+
+.section2 p {
+
+  opacity: 0.8;
+}
+
+.section3 {
+
+  background-color: black;
+  color: white;
+}
+
+
+
+
+h6 {
+  font-family: 'NeutrafaceDisplayGreek-Light', sans-serif;
+    font-size: 1.6em;
+    opacity: 0.7;
+color: white;
 }
 
 
@@ -172,10 +211,12 @@ h6 {
 
 
 .sidemenu .mine {
+    font-family: 'NeutrafaceDisplayGreek-Thin', sans-serif;
+
   font-weight: 100;
   margin-bottom: 0.5%;
-  font-size: 0.9em;
-  opacity: 0.4;
+  font-size: 0.8em;
+  opacity: 0.7;
 }
 
 
@@ -573,6 +614,9 @@ margin-bottom: -1%;
 
 
 address {
+    font-family: NeutrafaceDisplayGreek-Thin;
+
+opacity: 0.9;
   text-align: left;
   font-size: 1.1em;
   font-weight: 100;
@@ -747,7 +791,7 @@ margin-top: 10px;
 
 
 .ekdiloseis p {
-  font-family: NeutrafaceDisplayGreek-Light;
+  font-family: NeutrafaceDisplayGreek-Thin;
   margin-left: 0;
 
 }
